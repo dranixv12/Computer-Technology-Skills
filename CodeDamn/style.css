@@ -34,3 +34,43 @@ background-color: purple;
 width:150px;
 border-radius: 50%;
 }
+
+.newnewlayout{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+}
+.first{
+    flex-shrink:0;
+    }
+
+    .second{
+    flex-shrink:0;
+    }
+.newnewlayout  div{
+   background:purple;
+   flex-basis:400px;
+   border:2px solid rgb(250, 247, 247);
+   margin:10px;
+   height:50px
+  
+    }
+
+    
+
+    #parent{
+    display:flex;
+    background:red;
+    width:50vw;
+    height:50vh;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+    }
+
+    .child{
+    background:yellow;
+    width: 200px;
+    height:200px;
+    margin:5px;
+    }
