@@ -1,0 +1,28 @@
+nav ul{
+display:flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
+nav ul li{
+list-style:none;
+padding: 5px;
+}
+
+*{
+margin:0;
+}
+#logo{
+width:1oopx;
+height:150px;
+background-color:purple;
+}
+
+#Google{
+font-size:100px;
+}
+
+
+.layer1{
+    background:grey;
+}
