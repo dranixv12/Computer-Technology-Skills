@@ -1,0 +1,40 @@
+body{
+padding: 0;
+margin:0;
+}
+
+#grid{
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas:
+
+'header'
+'main'
+'sidebar'
+'footer'
+
+
+}
+
+
+main{
+    background:green;
+    grid-area:main;
+}
+
+aside{
+    background:black;
+    color:white;
+    grid-area:sidebar;
+}
+
+footer{
+background:blue;
+color:white;
+grid-area:footer;
+}
+
+header{
+    background:yellow;
+    grid-area:header;
+}

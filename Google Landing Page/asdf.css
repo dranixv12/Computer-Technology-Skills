@@ -1,28 +1,45 @@
+
+body{
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+nav,footer{
+flex-shrink: 0;
+}
 nav ul{
 display:flex;
 flex-direction: row;
 justify-content: flex-end;
 }
 
+section{
+flex-grow: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 nav ul li{
 list-style:none;
-padding: 5px;
+padding:5px;
+}
+
+#logo{
+width:60vw;
+height:100px;
+background:cornflowerblue;
+}
+
+.layer1{
+background-color: rgb(255, 249, 249);
+width:100%;
+padding: 10px 5px;
+border-bottom: 2px;
 }
 
 *{
 margin:0;
 }
-#logo{
-width:1oopx;
-height:150px;
-background-color:purple;
-}
 
-#Google{
-font-size:100px;
-}
-
-
-.layer1{
-    background:grey;
-}

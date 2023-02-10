@@ -1,4 +1,4 @@
-h1{
+.hgg{
 color: purple;
 width:200px;
 background:green;
@@ -74,3 +74,29 @@ flex-direction: column;
     height:200px;
     margin:5px;
     }
+
+  #grid{
+    background:yellow;
+    display:grid;
+    grid-template-columns: 150px 200px 150px;
+  }
+  
+  #grid div{
+width:100px;
+height:100px;
+  }
+
+  #grid div:nth-child(2n){
+    background:orange;
+  }
+
+    
+  #grid div:nth-child(2n+1){
+    background:blue;
+  }
+
+
+
+
+
+
