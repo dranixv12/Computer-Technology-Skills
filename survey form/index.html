@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Survey</h1>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <p id="description">Please fill out this survey form.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="number" id="number-label">Age:</label>
+                  <input type="number" id="number" name="age" min="16" max="23" placeholder="Enter your age" required>
+
+             <label for="dropdown">Select your role:</label>
+        <select id="dropdown" name="occupation">
+             <option disabled selected value>Select an option</option>
+         <option value="student">Guard</option>
+        <option value="employee">Forward</option>
+                  <option value="freelancer">Center</option>
+              </select>
+
+             <label>What level have you played?</label>
+    
+      <label>Highschool</label>
+              <input type="radio" name="choice1" value="choice">
+      <label>Club</label>
+              <input type="radio" name="choice2" value="choice">
+          <label>AAU</label>
+
+      <label>What would you say best describes yourself?</label>
+              <label>Courageousness</label>
+                  <input type="checkbox" name="answer" value="bold">
+             <label>Bold</label>
+      <input type="checkbox" name="answer" value="decision">
+        <label>Quick decision maker</label>
+        <input type="checkbox" name="answer" value="decision">
+
+        <label for="comments">Additional comments:</label>
+         <textarea id="comments" name="comments" placeholder="Anything else?"></textarea>
+
+         <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

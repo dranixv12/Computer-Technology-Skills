@@ -1,0 +1,84 @@
+/* font family  */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background-color: rgb(204, 216, 235);
+  }
+  
+  /*  title */
+  #title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /*  description */
+  #description {
+    text-align: center;
+  }
+  
+  /* Style the form */
+  #survey-form {
+    margin: 50px auto;
+    max-width: 600px;
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style the input fields this is grid select */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the select dropdowns */
+  select {
+    height: 40px;
+  }
+  
+  /* Style the radio and checkbox inputs */
+  input[type="radio"],
+  input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Style the submit button */
+  #submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Show red if no info entered */
+  input:required:invalid,
+  textarea:required:invalid {
+    border-color: 4px red;
+  }
+  
+  input:required:valid,
+  textarea:required:valid {
+    border-color: #ccc;
+  }
+  
+
+  /*Border radius for all */
+
