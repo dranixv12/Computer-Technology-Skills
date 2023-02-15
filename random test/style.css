@@ -1,8 +1,21 @@
 body{
 padding: 0;
 margin:0;
+--bgcolor: green;
+/*background: var(--bgcolor); */
 }
 
+#somediv{
+--bgdiv: red;
+background: var(--bgcolor);
+}
+#selectors{
+--blue: #6495ed;
+}
+
+:root{
+
+}
 #grid{
 display:grid;
 grid-template-columns: 1fr 1fr;
@@ -37,4 +50,15 @@ grid-area:footer;
 header{
     background:yellow;
     grid-area:header;
+}
+
+
+.yopr{
+width:400px;
+height: 200px;
+padding: 200px;
+color: black;
+background-color: yellow;
+border:6px solid black;
+box-sizing: border-box;
 }

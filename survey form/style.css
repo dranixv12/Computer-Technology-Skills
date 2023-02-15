@@ -3,6 +3,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     background-color: rgb(204, 216, 235);
+    cursor:auto;
+    cursor:cell;
   }
   
   /*  title */
@@ -57,7 +59,7 @@ body {
   }
   
   /* Style the submit button */
-  #submit {
+  #submit{
     display: block;
     width: 100%;
     padding: 10px;
@@ -65,7 +67,7 @@ body {
     color: #fff;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    cursor:crosshair;
   }
   
   /* Show red if no info entered */
