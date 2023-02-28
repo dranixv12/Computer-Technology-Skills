@@ -1,4 +1,4 @@
-body{
+/*body{
 background-color: rgb(34,39,46);
 color:white;
 }
@@ -13,4 +13,24 @@ min-height: 100vh;
 }
 
 
+*/
 
+body{
+    background-color: rgb(34,39,46);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; /* set minimum height to full viewport height to push content to the bottom */
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0; /* add padding to top and bottom */
+}
+
+h4 {
+    margin-bottom: 30px; /* add margin below h4 element */
+}
