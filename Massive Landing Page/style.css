@@ -1,71 +1,46 @@
-/*body{
-background-color: rgb(34,39,46);
-color:white;
-}
-
-.content{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-min-height: 100vh;   
-
-
-}
-
-
-*/
-
-body{
+body {
     background-color: rgb(34,39,46);
-    color:white;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh; /* set minimum height to full viewport height to push content to the bottom */
+    min-height: 100vh;
     border: 4px solid white;
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     border-radius: 2px 4px 2px;
-    height: 100%;
-    width:100%
-    
-    
 }
 
-.content{
-    background-color:rgb(82, 85, 92);
+.content {
+    background-color: rgb(82, 85, 92);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 20px 0; /* add padding to top and bottom */
+    padding: 20px 0;
 }
 
 h4 {
-    margin-bottom: 30px; /* add margin below h4 element */
+    margin-bottom: 30px;
 }
 
-
-#head{
-margin:auto;
-font-size:100px;
-
+#head {
+    margin: auto;
+    font-size: 100px;
 }
 
-#main{
-margin:auto;
-font-size:40px;
-
+#main {
+    margin: auto;
+    font-size: 40px;
 }
 
-#rows:hover.content div{
-background-color: transparent;
-color:black;
-}
-
-#rows:hover.content div.selected{
+#rows .content div:hover {
+    background-color: transparent;
+    color: black;
+  }
+  
+  #rows .content div.selected {
     background-color: white;
-    color:black;
-    }
-    
-    
+    color: black;
+  }
+  
